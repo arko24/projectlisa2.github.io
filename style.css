@@ -107,3 +107,15 @@ h1 {
 .social a {
 	margin: 0 5px;
 }
+
+h4 {
+	padding: 10px;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+h5 {
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+}
