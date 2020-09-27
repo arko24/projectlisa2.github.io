@@ -27,8 +27,8 @@ a:focus {
 {
 	width: 160px;
 	height: 130px;
-	margin-top: -345px;
-	margin-left: 680px;
+	margin-top: -300px;
+	margin-left: 560px;
 	z-index: 1;
 	position: absolute;
 }
@@ -83,8 +83,8 @@ video {
 .pls
 {
   
-  margin-top: -445px;
-  margin-left: 720px;
+  margin-top: -470px;
+  margin-left: 650px;
   z-index: 1;
   position: absolute;
 }
