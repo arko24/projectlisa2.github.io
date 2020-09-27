@@ -181,3 +181,17 @@ p {
 #textvertical {
   vertical-align: center;
 }
+
+h4 {
+	padding: 10px;
+	text-align: justify;
+	font-size: 1.9rem;
+	color: black;
+}
+
+h5 {
+	padding: 10px;
+	text-align: center;
+	font-size: 3.5rem;
+	color: black;
+}
