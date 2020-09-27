@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body 
+{
+	margin:2rem;
+	background-color: #b0bec5;		
+  font-family: 'Roboto', sans-serif;
+
+  display: -webkit-box;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+a,
+a:hover,
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+.vdply
+{
+	width: 160px;
+	height: 130px;
+	margin-top: -345px;
+	margin-left: 680px;
+	z-index: 1;
+	position: absolute;
+}
+
+.booth
+{
+	display: inline-block;
+	position: relative;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  -webkit-transform:rotate(359deg);
+  -moz-transform: rotate(359deg);
+  -ms-transform: rotate(359deg);
+  -o-transform: rotate(359deg);
+  transform: rotate(359deg);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.pulse {
+  --color: #37474f;
+  --hover: #eceff1;
+ 
+}
+.pls
+{
+  
+  margin-top: -445px;
+  margin-left: 720px;
+  z-index: 1;
+  position: absolute;
+}
+#pulse
+{
+
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0em;
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  border-radius: 1.625rem;
+}
+
+.offset {
+  --color: #37474f;
+  --hover: #eceff1;
+  
+}
+#offset{
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+.abt
+{
+  margin-top: -515px;
+  margin-left: 300px;
+  z-index: 1;
+  position: absolute;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+button {
+  background: none;
+  border: 2px solid;
+}
+
+.lightbox {
+  background: white;
+  padding: 1.5rem;
+  border: 4px solid black;
+  box-shadow: 4px 4px 0 black;
+  width: 350px;
+  position: absolute;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .3s ease-in;
+  transition: -webkit-transform .3s ease-in;
+  transition: transform .3s ease-in;
+  transition: transform .3s ease-in, -webkit-transform .3s ease-in;
+
+  margin-top: -445px;
+  margin-left: 280px; 
+}
+
+.lightbox:target {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.close-me::after {
+  content: "\00D7";
+  display: inline-block;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  z-index: 3;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) 
+The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+@media (max-width: 950px) { 
+
+}
+
+
+
