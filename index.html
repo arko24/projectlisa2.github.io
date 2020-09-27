@@ -1,320 +1,51 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en" >
 <head>
-	<meta charset="UTF-8">
-		<title>demo</title><style id="rocket-critical-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87}a,a:visited{text-decoration:underline}a{text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}input{outline:none}a{color:inherit}html{line-height:1.15;-webkit-text-size-adjust:100%}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#333;background-color:#fff}a{background-color:transparent;text-decoration:none;color:#c36}img{border-style:none;height:auto;max-width:100%}label{display:inline-block;line-height:1;vertical-align:middle}button,input{font-family:inherit;font-size:1rem;line-height:1.5;margin:0}input[type=email],input[type=password],input[type=text]{width:100%;border:1px solid #666;border-radius:3px;padding:.5rem 1rem}button,input{overflow:visible}button{text-transform:none}[type=submit],button{width:auto;-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}[type=submit],button{display:inline-block;font-weight:400;color:#c36;text-align:center;white-space:nowrap;background-color:transparent;border:1px solid #c36;padding:.5rem 1rem;font-size:1rem;border-radius:3px}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.site-navigation{grid-area:nav-menu;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.elementor-screen-only{position:absolute;top:-10000em;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.elementor-clearfix:after{content:"";display:block;clear:both;width:0;height:0}.elementor{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual}.elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box}.elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none}.elementor img{height:auto;max-width:100%;border:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none}.elementor video{max-width:100%;width:100%;margin:0;line-height:1;border:none}.elementor-widget-wrap>.elementor-element.elementor-fixed{position:fixed}.elementor-widget-wrap .elementor-element.elementor-widget__width-initial{max-width:100%}.elementor-element.elementor-fixed{z-index:1}.elementor-section{position:relative}.elementor-section .elementor-container{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative}.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px}.elementor-section.elementor-section-stretched{position:relative;width:100%}.elementor-section.elementor-section-items-middle>.elementor-container{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex}@media (max-width:1024px){.elementor-row{-ms-flex-wrap:wrap;flex-wrap:wrap}}.elementor-column-wrap{width:100%;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-wrap{position:relative;width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start}.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-wrap>.elementor-element{width:100%}.elementor-widget{position:relative}.elementor-widget:not(:last-child){margin-bottom:20px}.elementor-column{position:relative;min-height:1px;display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{padding:10px}@media (min-width:768px){.elementor-column.elementor-col-33{width:33.333%}.elementor-column.elementor-col-50{width:50%}.elementor-column.elementor-col-100{width:100%}}@media (max-width:767px){.elementor-column{width:100%}}.elementor-form-fields-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.elementor-field-group{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-field-group.elementor-field-type-submit{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.elementor-field-group .elementor-field-textual{width:100%;max-width:100%;border:1px solid #818a91;background-color:transparent;color:#373a3c;vertical-align:middle;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.elementor-field-group .elementor-field-textual::-webkit-input-placeholder{color:inherit;font-family:inherit;opacity:.6}.elementor-field-group .elementor-field-textual:-ms-input-placeholder{color:inherit;font-family:inherit;opacity:.6}.elementor-field-group .elementor-field-textual:-moz-placeholder,.elementor-field-group .elementor-field-textual::-moz-placeholder{color:inherit;font-family:inherit;opacity:.6}.elementor-field-group .elementor-field-textual::-ms-input-placeholder{color:inherit;font-family:inherit;opacity:.6}.elementor-field-textual{line-height:1.4;font-size:15px;min-height:40px;padding:5px 14px;-webkit-border-radius:3px;border-radius:3px}.elementor-button-align-stretch .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button{-ms-flex-preferred-size:100%;flex-basis:100%}.elementor-form .elementor-button{padding-top:0;padding-bottom:0;border:none}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.elementor-form .elementor-button.elementor-size-sm{min-height:40px}.elementor-tab-title a{color:inherit}.elementor-button{display:inline-block;line-height:1;background-color:#818a91;font-size:15px;padding:12px 24px;-webkit-border-radius:3px;border-radius:3px;color:#fff;fill:#fff;text-align:center}.elementor-button:visited{color:#fff}.elementor-button-icon{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.elementor-button-text{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10;display:inline-block}.elementor-button span{text-decoration:inherit}.elementor-widget-image{text-align:center}.elementor-widget-image .elementor-image>a{display:inline-block}.elementor-widget-image .elementor-image img{vertical-align:middle;display:inline-block}.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title{display:table-cell}.elementor-widget-tabs .elementor-tab-content,.elementor-widget-tabs .elementor-tab-title,.elementor-widget-tabs .elementor-tab-title:after,.elementor-widget-tabs .elementor-tab-title:before,.elementor-widget-tabs .elementor-tabs-content-wrapper{border:1px #d4d4d4}.elementor-widget-tabs .elementor-tabs{text-align:left}.elementor-widget-tabs .elementor-tabs-wrapper{overflow:hidden}.elementor-widget-tabs .elementor-tab-title{outline:none}.elementor-widget-tabs .elementor-tab-desktop-title{position:relative;padding:20px 25px;font-weight:700;line-height:1;border:solid transparent}.elementor-widget-tabs .elementor-tab-mobile-title{padding:10px}.elementor-widget-tabs .elementor-tab-content{padding:20px;display:none}@media (max-width:767px){.elementor-tabs .elementor-tab-content,.elementor-tabs .elementor-tab-title{border-style:solid solid none}.elementor-tabs .elementor-tabs-wrapper{display:none}.elementor-tabs .elementor-tabs-content-wrapper{border-bottom-style:solid}.elementor-tabs .elementor-tab-content{padding:10px}}@media (min-width:768px){.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-content{border-style:none solid solid}.elementor-tabs .elementor-tab-mobile-title{display:none}}.page-template-elementor_canvas.elementor-page:before{display:none}body.elementor-dce{overflow-x:hidden}.e-form__buttons{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-login .elementor-lost-password{font-size:.85em}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}[data-elementor-type=popup]:not(.elementor-edit-mode){display:none}.elementor-widget-tabs .elementor-tab-title,.elementor-widget-tabs .elementor-tab-title a{color:#6ec1e4}.elementor-widget-tabs .elementor-tab-title{font-family:"Roboto",Sans-serif;font-weight:600}.elementor-widget-tabs .elementor-tab-content{color:#7a7a7a;font-family:"Roboto",Sans-serif;font-weight:400}.elementor-widget-form .elementor-field-group>label{color:#7a7a7a}.elementor-widget-form .elementor-field-group>label{font-family:"Roboto",Sans-serif;font-weight:400}.elementor-widget-form .elementor-field-group .elementor-field{color:#7a7a7a}.elementor-widget-form .elementor-field-group .elementor-field{font-family:"Roboto",Sans-serif;font-weight:400}.elementor-widget-form .elementor-button{font-family:"Roboto",Sans-serif;font-weight:500}.elementor-widget-form .elementor-button[type="submit"]{background-color:#61ce70}.elementor-widget-form{--e-form-steps-indicator-inactive-primary-color:#7a7a7a;--e-form-steps-indicator-active-primary-color:#61ce70;--e-form-steps-indicator-completed-primary-color:#61ce70;--e-form-steps-indicator-progress-color:#61ce70;--e-form-steps-indicator-progress-background-color:#7a7a7a;--e-form-steps-indicator-progress-meter-color:#7a7a7a}.elementor-widget-login .elementor-field-group>a{color:#7a7a7a}.elementor-widget-login .elementor-form-fields-wrapper label{color:#7a7a7a;font-family:"Roboto",Sans-serif;font-weight:400}.elementor-widget-login .elementor-field-group .elementor-field{color:#7a7a7a}.elementor-widget-login .elementor-field-group .elementor-field{font-family:"Roboto",Sans-serif;font-weight:400}.elementor-widget-login .elementor-button{font-family:"Roboto",Sans-serif;font-weight:500;background-color:#61ce70}.elementor-293 .elementor-element.elementor-element-c559056>.elementor-container{min-height:100vh}.elementor-293 .elementor-element.elementor-element-c559056>.elementor-container:after{content:"";min-height:inherit}.elementor-293 .elementor-element.elementor-element-43ede16>.elementor-element-populated{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.elementor-293 .elementor-element.elementor-element-8876174{width:6vw;max-width:6vw;top:60vh}body:not(.rtl) .elementor-293 .elementor-element.elementor-element-8876174{left:47vw}.n2-section-smartslider{position:relative;width:100%}.n2-ss-align{position:relative;z-index:0;overflow:hidden}.n2-ss-slider{-webkit-font-smoothing:antialiased}.n2-ss-slider .n2-ow{font-size:inherit;line-height:inherit;letter-spacing:inherit}.n2-ss-slider .n2-ow,.n2-ss-slider .n2-ow:before,.n2-ss-slider .n2-ow:after{box-sizing:content-box}.n2-ss-slider .n2-ow:before,.n2-ss-slider .n2-ow:after{display:none}.n2-ss-slider{z-index:3;position:relative;text-align:left;width:100%;min-height:1px}.n2-ss-slider.n2-ss-load-fade{position:absolute;opacity:0}.n2-ss-slider .n2-ss-slide{text-align:center}.n2-ss-slider .n2-ss-slide,.n2-ss-slider .n2-ss-canvas{position:relative}.n2-ss-slider .n2-ss-slide,.n2-ss-slider .n2-ss-canvas{overflow:hidden!important}.n2-ss-slider .n2-ss-slide-background,.n2-ss-slider .n2-ss-slide-background *{position:absolute;top:0;left:0;width:100%;height:100%;text-align:left}.n2-ss-slider .n2-ss-slide-background{z-index:10}.n2-ss-slider .n2-ss-slide-background .n2-ss-slide-background-video{z-index:3}.n2-ss-slider .n2-ss-slide-background-video{position:absolute;top:0;left:0}.n2-ss-slider .n2-ss-layers-container{visibility:hidden;position:relative;width:100%;height:100%;display:flex;flex-direction:column;z-index:20}.n2-ss-slider .n2-ss-layers-container>*{visibility:visible}.n2-ss-slider .n2-ss-layer{outline:1px solid RGBA(0,0,0,0);z-index:2}.n2-ss-slider .n2-ss-layer[data-pm=default]{position:relative;min-height:1px}.n2-ss-slider video.n2-ow{max-width:none}.n2-ss-slider ::-moz-placeholder{text-overflow:clip;color:inherit}.n2-ss-layer[data-sstype=slide]{flex:0 0 auto;position:relative;box-sizing:border-box;width:100%;height:100%;min-height:100%;z-index:2;display:flex;justify-content:center;flex-flow:column}.n2-ss-slider [data-csstextalign=center]{text-align:center}.n2_clear{clear:both}.elementor-299 .elementor-element.elementor-element-404373e.elementor-column.elementor-element[data-element_type="column"]>.elementor-column-wrap.elementor-element-populated>.elementor-widget-wrap{align-content:center;align-items:center}.elementor-299 .elementor-element.elementor-element-404373e>.elementor-element-populated{margin:8% 10% 02% 10%}.elementor-299 .elementor-element.elementor-element-98d15a5{text-align:right}.elementor-299 .elementor-element.elementor-element-98d15a5 .elementor-image img{width:100%;max-width:100%}.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title,.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title:before,.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title:after,.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-content,.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tabs-content-wrapper{border-width:0px}.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title,.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title a{color:#FFFFFF}.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-title{font-family:"Montserrat",Sans-serif}.elementor-299 .elementor-element.elementor-element-05e8599 .elementor-tab-content{color:rgba(116,62,62,0)}.elementor-304 .elementor-element.elementor-element-288bc5b>.elementor-element-populated{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group{margin-bottom:10px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-form-fields-wrapper{margin-bottom:-10px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group>a{color:#61CE70}body .elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group>label{padding-bottom:0px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group .elementor-field{color:#FFFFFF}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group .elementor-field{font-family:"Montserrat",Sans-serif;font-size:16px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-field-group .elementor-field:not(.elementor-select-wrapper){background-color:rgba(255,255,255,0.3);border-color:rgba(122,122,122,0);border-width:0px 0px 0px 0px;border-radius:5px 5px 5px 5px}.elementor-304 .elementor-element.elementor-element-e23a473 .elementor-button{color:#ffffff;font-family:"Montserrat",Sans-serif;text-transform:uppercase;background-color:rgba(22,92,124,0.55);border-radius:5px 5px 5px 5px}.elementor-305 .elementor-element.elementor-element-1be25fa>.elementor-element-populated{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-field-group{padding-right:calc(20px/2);padding-left:calc(20px/2);margin-bottom:10px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-form-fields-wrapper{margin-left:calc(-20px/2);margin-right:calc(-20px/2);margin-bottom:-10px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-field-group .elementor-field{color:#FFFFFF}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-field-group .elementor-field{font-family:"Montserrat",Sans-serif;font-size:16px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-field-group:not(.elementor-field-type-upload) .elementor-field:not(.elementor-select-wrapper){background-color:rgba(255,255,255,0.3);border-color:rgba(122,122,122,0);border-width:0px 0px 0px 0px;border-radius:5px 5px 5px 5px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-button{font-family:"Montserrat",Sans-serif;text-transform:uppercase;border-radius:5px 5px 5px 5px}.elementor-305 .elementor-element.elementor-element-e6430bf .elementor-button[type="submit"]{background-color:rgba(22,92,124,0.55);color:#ffffff}.elementor-305 .elementor-element.elementor-element-e6430bf{--e-form-steps-indicators-spacing:20px;--e-form-steps-indicator-padding:30px;--e-form-steps-indicator-inactive-secondary-color:#ffffff;--e-form-steps-indicator-active-secondary-color:#ffffff;--e-form-steps-indicator-completed-secondary-color:#ffffff;--e-form-steps-divider-width:1px;--e-form-steps-divider-gap:10px}</style><link rel="preload" href="https://virtualisef.co.id/wp-content/cache/min/1/040981b1b136740abc6f8791148b4803.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel='preload'   href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1&#038;display=swap' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
-<style type="text/css">.n2-ss-spinner-simple-white-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -20px;
-    background: #fff;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 50%;
-    z-index: 1000;
-}
-
-.n2-ss-spinner-simple-white {
-  outline: 1px solid RGBA(0,0,0,0);
-  width:100%;
-  height: 100%;
-}
-
-.n2-ss-spinner-simple-white:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    margin-top: -11px;
-    margin-left: -11px;
-}
-
-.n2-ss-spinner-simple-white:not(:required):before {
-    content: '';
-    border-radius: 50%;
-    border-top: 2px solid #333;
-    border-right: 2px solid transparent;
-    animation: n2SimpleWhite .6s linear infinite;
-}
-@keyframes n2SimpleWhite {
-    to {transform: rotate(360deg);}
-}</style>
-	
-				<style>
-			.no-js img.lazyload { display: none; }
-			figure.wp-block-image img.lazyloading { min-width: 150px; }
-							.lazyload, .lazyloading { opacity: 0; }
-				.lazyloaded {
-					opacity: 1;
-					transition: opacity 400ms;
-					transition-delay: 0ms;
-				}
-					</style>
-<style>.pswp.pafe-lightbox-modal {display: none;}</style><script>
-/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
-var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
-return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
-if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
-setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
-var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
-if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
-else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
-</script>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-
-
+  <meta charset="UTF-8">
+  <title>Demo Web</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
-<body class="home page-template page-template-elementor_canvas page page-id-293 elementor-dce elementor-default elementor-template-canvas elementor-kit-23 elementor-page elementor-page-293">
-			<div data-elementor-type="wp-page" data-elementor-id="293" data-post-id="293" data-obj-id="293" class="elementor elementor-293 dce-elementor-post-293" data-elementor-settings="[]">
-						<div class="elementor-inner">
-							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-c559056 elementor-section-stretched elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="c559056" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-							<div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43ede16" data-id="43ede16" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-d990232 elementor-widget elementor-widget-smartslider" data-id="d990232" data-element_type="widget" data-widget_type="smartslider.default">
-				<div class="elementor-widget-container">
-			<div class="n2-section-smartslider fitvidsignore  n2_clear" role="region" aria-label="Slider"><style>div#n2-ss-4{width:1920px;float:left;}html[dir="rtl"] div#n2-ss-4{float:right;}div#n2-ss-4 .n2-ss-slider-1{height:1080px;box-sizing:border-box;position:relative;background-repeat:repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;}div#n2-ss-4.n2-ss-mobileLandscape .n2-ss-slider-1,div#n2-ss-4.n2-ss-mobilePortrait .n2-ss-slider-1{background-attachment:scroll;}div#n2-ss-4 .n2-ss-slider-background-video-container{position:absolute;left:0;top:0;width:100%;height:100%;overflow:hidden;}div#n2-ss-4 .n2-ss-slider-2{position:relative;width:100%;height:100%;overflow:hidden;z-index:10;}div#n2-ss-4 .n2-ss-slide-backgrounds,div#n2-ss-4 .n-particles-js-canvas-el{position:absolute;left:0;top:0;width:100%;height:100%;}div#n2-ss-4 .n2-ss-slide-backgrounds{z-index:10;}div#n2-ss-4 .n-particles-js-canvas-el{z-index:12;}div#n2-ss-4 .n2-ss-slide{position:absolute;top:0;left:0;width:1920px;height:1080px;display:block;-webkit-backface-visibility:hidden;z-index:20;}div#n2-ss-4 .n2-ss-layers-container{position:relative;width:1920px;height:1080px;}div#n2-ss-4 .n2-ss-slide{perspective:1500px;}div#n2-ss-4[data-ie] .n2-ss-slide{perspective:none;transform:perspective(1500px);}</style><div id="n2-ss-4-align" class="n2-ss-align"><div class="n2-padding"><div id="n2-ss-4" data-creator="Smart Slider 3" class="n2-ss-slider n2-ow n2-has-hover n2notransition  n2-ss-load-fade " style="font-size: 1rem;" data-fontsize="16">
-        <div class="n2-ss-slider-1 n2-ow">
-            <div class="n2-ss-slider-2 n2-ow">
-                                <div class="n2-ss-slide-backgrounds"></div><div data-first="1" data-slide-duration="0" data-id="4" class=" n2-ss-slide n2-ss-canvas n2-ow  n2-ss-slide-4"><div class="n2-ss-slide-background n2-ow" data-mode="fill"><video class="n2-ss-slide-background-video n2-ow intrinsic-ignore" style="opacity:1;" data-mode="fill" playsinline="playsinline" webkit-playsinline="webkit-playsinline" onloadstart="this.n2LoadStarted=1;" data-keepplaying="1" preload="none" muted="muted" loop="loop" data-reset-slide-change="1"><source src="vid/cinematic.mp4" type="video/mp4"></video></div><div class="n2-ss-layers-container n2-ow"><div class="n2-ss-layer n2-ow" style="padding:10px 10px 10px 10px;" data-desktopportraitpadding="10|*|10|*|10|*|10" data-sstype="slide" data-csstextalign="center" data-pm="default"></div></div></div>                            </div>
-                    </div>
-        </div><div id="n2-ss-4-spinner" style="display: none;"><div><div class="n2-ss-spinner-simple-white-container"><div class="n2-ss-spinner-simple-white"></div></div></div></div></div></div><div class="n2_clear"></div><div id="n2-ss-4-placeholder" style="position: relative;z-index:2;background-color:RGBA(0,0,0,0); background-color:RGBA(255,255,255,0);"><img style="width: 100%; max-width:1920px; display: block;opacity:0;margin:0px;" class="n2-ow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiID48L3N2Zz4=" alt="Slider" /></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-8876174 elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-initial dce_masking-none elementor-widget elementor-widget-image" data-id="8876174" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-image">
-											<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI5OSIsInRvZ2dsZSI6ZmFsc2V9">
-							<img width="82" height="82"   alt="" loading="lazy" data-src="https://i2.wp.com/www.virtualisef.co.id/wp-content/uploads/2020/09/rszrpl2.gif" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="82" height="82" src="https://i2.wp.com/www.virtualisef.co.id/wp-content/uploads/2020/09/rszrpl2.gif" class="attachment-large size-large" alt="" loading="lazy" /></noscript>								</a>
-											</div>
-				</div>
-				</div>
-						</div>
-					</div>
-		</div>
-								</div>
-					</div>
-		</section>
-						</div>
-						</div>
-					</div>
-				<div data-elementor-type="popup" data-elementor-id="299" data-post-id="293" data-obj-id="293" class="elementor elementor-299 dce-elementor-post-293 elementor-location-popup" data-elementor-settings="{&quot;prevent_scroll&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;page_load&quot;:&quot;yes&quot;,&quot;page_load_delay&quot;:0},&quot;timing&quot;:[]}">
-		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-6aaa97c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6aaa97c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-							<div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-404373e" data-id="404373e" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-05e8599 elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="05e8599" data-element_type="widget" data-widget_type="tabs.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-tabs" role="tablist">
-			<div class="elementor-tabs-wrapper">
-									<div id="elementor-tab-title-6191" class="elementor-tab-title elementor-tab-desktop-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-6191"><a href="">REGISTRATION</a></div>
-									<div id="elementor-tab-title-6192" class="elementor-tab-title elementor-tab-desktop-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-6192"><a href="">LOGIN</a></div>
-							</div>
-			<div class="elementor-tabs-content-wrapper">
-									<div class="elementor-tab-title elementor-tab-mobile-title" data-tab="1" role="tab">REGISTRATION</div>
-					<div id="elementor-tab-content-6191" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-6191">		<div data-elementor-type="section" data-elementor-id="305" data-post-id="293" data-obj-id="293" class="elementor elementor-305 dce-elementor-post-293 dce-elementor-post-293 elementor-location-popup" data-elementor-settings="[]">
-		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-0651e86 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0651e86" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-							<div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1be25fa" data-id="1be25fa" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-e6430bf elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="e6430bf" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;33&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
-				<div class="elementor-widget-container">
-					<form class="elementor-form" method="post" name="WG Reg Form">
-			<input type="hidden" name="post_id" value="305"/>
-			<input type="hidden" name="form_id" value="e6430bf"/>
-
-							<input type="hidden" name="queried_id" value="293"/>
-			
-			<div class="elementor-form-fields-wrapper elementor-labels-">
-								<div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-u_title elementor-col-20 elementor-field-required">
-					<label for="form-field-u_title" class="elementor-field-label elementor-screen-only">Title / Titel</label>		<div class="elementor-field elementor-select-wrapper ">
-			<select name="form_fields[u_title]" id="form-field-u_title" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
-				<option value="Ibu">Ibu</option><option value="Bapak">Bapak</option>			</select>
-		</div>
-						</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_name elementor-col-50 elementor-field-required">
-					<label for="form-field-u_name" class="elementor-field-label elementor-screen-only">Name</label><input size="1" type="text" name="form_fields[u_name]" id="form-field-u_name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Name / Nama" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_mobileno elementor-col-30 elementor-field-required">
-					<label for="form-field-u_mobileno" class="elementor-field-label elementor-screen-only">Mobile No</label><input size="1" type="text" name="form_fields[u_mobileno]" id="form-field-u_mobileno" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Mobile No. / No. Handphone" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_company elementor-col-50 elementor-field-required">
-					<label for="form-field-u_company" class="elementor-field-label elementor-screen-only">Company</label><input size="1" type="text" name="form_fields[u_company]" id="form-field-u_company" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Company / Institusi" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-u_sector elementor-col-50 elementor-field-required">
-					<label for="form-field-u_sector" class="elementor-field-label elementor-screen-only">Sector</label>		<div class="elementor-field elementor-select-wrapper ">
-			<select name="form_fields[u_sector]" id="form-field-u_sector" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
-				<option value="Sector">Sector</option><option value="Government/Public Sector">Government/Public Sector</option><option value="Private Sector">Private Sector</option><option value="International Organization">International Organization</option><option value="Association">Association</option><option value="Academic">Academic</option><option value="Small and Medium Enterprise">Small and Medium Enterprise</option><option value="Islamic Boarding School">Islamic Boarding School</option><option value="Others">Others</option>			</select>
-		</div>
-						</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_othersector elementor-col-100 elementor-field-required">
-					<label for="form-field-u_othersector" class="elementor-field-label elementor-screen-only">Other Sector</label><input size="1" type="text" name="form_fields[u_othersector]" id="form-field-u_othersector" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Other Sector" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_position elementor-col-50 elementor-field-required">
-					<label for="form-field-u_position" class="elementor-field-label elementor-screen-only">Position</label><input size="1" type="text" name="form_fields[u_position]" id="form-field-u_position" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Position / Jabatan" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-u_country elementor-col-50 elementor-field-required">
-					<label for="form-field-u_country" class="elementor-field-label elementor-screen-only">Country</label>		<div class="elementor-field elementor-select-wrapper ">
-			<select name="form_fields[u_country]" id="form-field-u_country" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
-				<option value="Country">Country</option><option value="Indonesia">Indonesia</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Brazil">Brazil</option><option value="Brunei">Brunei</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Côte d&#039;Ivoire">Côte d&#039;Ivoire</option><option value="Cabo Verde">Cabo Verde</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)</option><option value="Costa Rica">Costa Rica</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czechia (Czech Republic)">Czechia (Czech Republic)</option><option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Eswatini (fmr. &quot;Swaziland&quot;)">Eswatini (fmr. &quot;Swaziland&quot;)</option><option value="Ethiopia">Ethiopia</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Holy See">Holy See</option><option value="Honduras">Honduras</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar (formerly Burma)">Myanmar (formerly Burma)</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="North Korea">North Korea</option><option value="North Macedonia">North Macedonia</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestine State">Palestine State</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Timor-Leste">Timor-Leste</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="United States of America">United States of America</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>			</select>
-		</div>
-						</div>
-								<div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-u_sourceinfo elementor-col-100 elementor-field-required">
-					<label for="form-field-u_sourceinfo" class="elementor-field-label elementor-screen-only">How did you hear about Syariah Online Festival?</label>		<div class="elementor-field elementor-select-wrapper ">
-			<select name="form_fields[u_sourceinfo]" id="form-field-u_sourceinfo" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
-				<option value="How did you hear about Syariah Online Festival?">How did you hear about Syariah Online Festival?</option><option value="Invitation Letter">Invitation Letter</option><option value="Website">Website</option><option value="Instagram">Instagram</option><option value="Facebook">Facebook</option><option value="Twitter">Twitter</option><option value="Whatsapp Message">Whatsapp Message</option><option value="Others">Others</option>			</select>
-		</div>
-						</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-u_othersource elementor-col-100 elementor-field-required">
-					<label for="form-field-u_othersource" class="elementor-field-label elementor-screen-only">Other Source</label><input size="1" type="text" name="form_fields[u_othersource]" id="form-field-u_othersource" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Other Source" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-u_email elementor-col-33 elementor-field-required">
-					<label for="form-field-u_email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[u_email]" id="form-field-u_email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-password elementor-field-group elementor-column elementor-field-group-u_password elementor-col-33 elementor-field-required">
-					<label for="form-field-u_password" class="elementor-field-label elementor-screen-only">Password</label><input size="1" type="password" name="form_fields[u_password]" id="form-field-u_password" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Create Password" required="required" aria-required="true">				</div>
-								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-33 e-form__buttons">
-					<button type="submit" class="elementor-button elementor-size-sm">
-						<span >
-					<span class=" elementor-button-icon">
-					</span>
-					<span class="elementor-button-text" onclick="location.href='virtu.html'">REGISTER</span>
-													</span>
-					</button>
-				</div>
+<body>
+<!-- partial:index.partial.html -->
+<section class="showcase">
+			<!-- <div class="video-container">
+				<video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+			</div> -->
+			<div class="video-container">
+				<video src="vid/cinematic.mp4" autoplay muted loop></video>
 			</div>
-		</form>
-				</div>
-				</div>
-						</div>
-					</div>
-		</div>
-								</div>
-					</div>
+			<div class="content">
+				<h1>Your Next Travel Experience</h1>
+				<h3>Go Enter the room and get new experiences!</h3>
+				<a class="btn" id="btn" onclick="location.href='virtu.html';">Enter Room</a>
+			</div>
 		</section>
-				</div>
-		</div>
-		</div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" data-tab="2" role="tab">LOGIN</div>
-					<div id="elementor-tab-content-6192" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-6192">		<div data-elementor-type="section" data-elementor-id="304" data-post-id="293" data-obj-id="293" class="elementor elementor-304 dce-elementor-post-293 dce-elementor-post-293 elementor-location-popup" data-elementor-settings="[]">
-		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-5779ad2 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5779ad2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-							<div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-288bc5b" data-id="288bc5b" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-e23a473 elementor-button-align-stretch elementor-widget elementor-widget-login" data-id="e23a473" data-element_type="widget" data-settings="{&quot;enabled_visibility&quot;:&quot;yes&quot;}" data-widget_type="login.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-form-fields-wrapper">
-				<div class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-					<label for="user"></label><input size="1" type="text" name="log" id="user" placeholder="Email Address" class="elementor-field elementor-field-textual elementor-size-sm">				</div>
-				<div class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-					<label for="password"></label><input size="1" type="password" name="pwd" id="password" placeholder="Password" class="elementor-field elementor-field-textual elementor-size-sm">				</div>
 
-				
-				<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100">
-					<button type="submit" class="elementor-size-sm elementor-button" name="wp-submit">
-				<span class="elementor-button-text" onclick="location.href='virtu.html'">Log In</span>
-												</button>
-				</div>
+		<section id="about">
+			<h1>About</h1>
+			<p>
+				This is a page with virtual reality experience. Feel free to
+				use this page to find your new experience. 
+			</p>
 
-									<div class="elementor-field-group elementor-column elementor-col-100">
-													<a class="elementor-lost-password" href="">
-								Lost your password?							</a>
-						
-											</div>
-							</div>
-		</form>
-				</div>
-				</div>
-						</div>
-					</div>
-		</div>
-								</div>
-					</div>
+			<h2>Follow Us on Social Media</h2>
+
+			<div class="social">
+				<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+					<a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+					<a href="https://github.com/" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+					<a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+			</div>
 		</section>
-				</div>
-		</div>
-		</div>
-							</div>
-		</div>
-				</div>
-				</div>
-						</div>
-					</div>
-		</div>
-								</div>
-					</div>
-		</section>
-				</div>
-		</div>
-		
+<!-- partial -->
+  <script>
+	var video = document.getElementById("myVideo");
+	var btn = document.getElementById("myBtn");
 
-
-
-<script type='text/javascript' id='cb70d11b8-js-extra'>
-/* <![CDATA[ */
-var localize = {"ajaxurl":"https:\/\/virtualisef.co.id\/wp-admin\/admin-ajax.php","nonce":"0c0f60069f"};
-/* ]]> */
+	function myFunction() {
+	  href="https://twitter.com/"
+	}
 </script>
-
-
-
-<script   type='text/javascript' id='elementor-pro-frontend-js-before'>
-var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/virtualisef.co.id\/wp-admin\/admin-ajax.php","nonce":"815f5a18f0","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"weixin":{"title":"WeChat"},"weibo":{"title":"Weibo"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/virtualisef.co.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
-</script>
-
-
-
-
-
-
-<script   type='text/javascript' id='elementor-frontend-js-before'>
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.7","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/virtualisef.co.id\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[],"dynamicooo":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":293,"title":"ISEF%20%E2%80%93%202020","excerpt":"","featuredImage":false}};
-</script>
-
-
-            
-                                            
-                                                                
-                                <div class="pafe-break-point" data-pafe-break-point-md="768" data-pafe-break-point-lg="1025" data-pafe-ajax-url=""></div><div data-pafe-form-builder-tinymce-upload=""></div>	<script>const wprRemoveCPCSS = () => { if( document.querySelector("link[data-rocket-async='style'][rel='preload']") ){ setTimeout(wprRemoveCPCSS, 200); }else{ $elem = document.getElementById( "rocket-critical-css" );if ( $elem ) {$elem.remove();} } }; if ( window.addEventListener ) { window.addEventListener( "load", wprRemoveCPCSS ); } else if ( window.attachEvent ) { window.attachEvent( "onload", wprRemoveCPCSS ); }</script><script src="https://virtualisef.co.id/wp-content/cache/min/1/693677db8e2a9386ab848d9c92d19a54.js" data-minify="1" defer></script><noscript><link rel="stylesheet" href="https://test/wp-content/cache/min/1/040981b1b136740abc6f8791148b4803.css" media="all" data-minify="1" /><link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1&#038;display=swap' type='text/css' media='all' /></noscript></body>
+</body>
 </html>
-
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1601173035 -->
