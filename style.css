@@ -112,10 +112,21 @@ h4 {
 	padding: 10px;
 	text-align: justify;
 	font-size: 0.9rem;
+	color: black;
 }
 
 h5 {
 	padding: 10px;
 	text-align: center;
 	font-size: 0.7rem;
+	color: black;
+}
+
+.main-back {
+    background-image: url(./pic/about.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
