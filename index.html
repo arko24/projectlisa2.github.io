@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Demo Web</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -18,7 +21,9 @@
 			<div class="content">
 				<h1>Your Next Travel Experience</h1>
 				<h3>Go Enter the room and get new experiences!</h3>
-				<a class="btn" id="btn" onclick="location.href='virtu.html';">Enter Room</a>
+				<a class="btn" id="btn" data-toggle="modal" data-target="#mylogin";">Enter Room</a> 
+<!--				<a class="btn" id="btn" onclick="location.href='virtu.html';">Enter Room</a> -->
+<!--				<li data-toggle="modal" data-target="#mylogin"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
 			</div>
 		</section>
 
@@ -37,8 +42,39 @@
 					<a href="https://github.com/" target="_blank"><i class="fab fa-github fa-3x"></i></a>
 					<a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
 			</div>
+			<!-- Modal login -->
+<div id="mylogin" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+  
+	  <!-- Modal content-->
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		  <label class="modal-title">Login</label>
+		</div>
+		<div class="modal-body">
+		  <form>
+	  <div class="form-group">
+		<label for="exampleInputEmail1">Username</label>
+		<input type="text" class="form-control" id="username" placeholder="Username">
+	  </div>
+	  <div class="form-group">
+		<label for="exampleInputPassword1">Password</label>
+		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	</form>
+		</div>
+		<div class="modal-footer">
+			<a class="btn" id="btn" onclick="location.href='virtu.html';">Login</a>
+		 <!--<button type="button" class="btn btn-success" onclick="location.href='virtu.html';">Login</button>-->
+		  <button type="button" class="btn" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+  <!-- End Modal Login -->
+
 		</section>
 <!-- partial -->
+  
   <script>
 	var video = document.getElementById("myVideo");
 	var btn = document.getElementById("myBtn");
