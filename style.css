@@ -78,7 +78,7 @@ h1 {
 	padding: 10px 30px;
 	background: var(--primary-color);
 	color: #fff;
-	border-radius: 5px;
+	border-radius: x;
 	border: solid #fff 1px;
 	margin-top: 25px;
 	opacity: 0.7;
@@ -139,8 +139,8 @@ h5 {
 }
 .pls
 {  
-  margin-top: -215px;
-  margin-left: 540px;
+  margin-top: -400px;
+  margin-left: 700px;
   z-index: 1;
   position: absolute;
 }
@@ -158,17 +158,20 @@ h5 {
   font: inherit;
   line-height: 1;
   margin: 0em;
-  width: 14rem;
-  height: 10rem;
+  width: 8rem;
+  height: 6rem;
   display: block;
   border-radius: 1.625rem;
 }
 .plsa
 {  
-  margin-top: -215px;
-  margin-left: -640px;
+  margin-top: -400px;
+  margin-left: -600px;
   z-index: 1;
   position: absolute;
 }
 
+#dbox {
+	background-image: url("./pic/event.jpeg");
+  }
   
