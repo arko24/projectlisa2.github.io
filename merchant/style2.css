@@ -23,6 +23,10 @@ box-shadow: 0px 2px 5px;
   background-image: url("./img/bg.png");
 }
 
+#terdbox {
+  background-image: url("./img/dubai.jpg");
+}
+
 #thirdbox {
   background-color: #6ed3cf;
   padding-top: 50px;
