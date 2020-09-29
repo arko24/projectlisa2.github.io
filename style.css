@@ -171,6 +171,15 @@ h5 {
   position: absolute;
 }
 
+.plsb
+  {  
+	margin-top: -250px;
+	margin-left: 430px;
+	z-index: 1;
+	position: absolute;
+  }
+  
+
 #dbox {
 	background-image: url("./pic/event.jpeg");
   }
